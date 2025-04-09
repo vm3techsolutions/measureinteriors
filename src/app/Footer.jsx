@@ -11,8 +11,8 @@ import {
   
   export default function Footer() {
     return (
-<footer className="bg-[#e8d3c4] text-gray-900 sm:mt-[-30vh] sm:pt-40 pt-10 px-6 sm:px-16  z-0">
-<div className="max-w-7xl mx-auto grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-10">
+<footer className="bg-[#E3D5CA] text-gray-900 sm:mt-[-30vh] sm:pt-40 pt-10     z-0">
+<div className="max-w-7xl mx-auto grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-10 px-6 sm:px-16 pb-10">
           {/* Measure Column */}
           <div>
             <h2 className="text-2xl font-semibold  text-[#f4e8e8] mb-2">Measure</h2>
@@ -72,6 +72,11 @@ import {
               </a>
             </div>
           </div>
+        </div>
+
+        <div className="bg-[#D6CCC2] text-gray-900 w-full py-8 text-center">
+
+          <p className="font-normal"> © 2025 All Rights Reserved By <a href="https://measureinteriors.com/">  Measure Interiors </a></p>
         </div>
       </footer>
     );

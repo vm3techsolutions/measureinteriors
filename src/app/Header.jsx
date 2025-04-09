@@ -1,6 +1,7 @@
 'use client';
 import { useState } from 'react';
 import Link from 'next/link';
+import Image from "next/image";
 import {
   FaEnvelope,
   FaInstagram,
@@ -31,13 +32,18 @@ export default function Header() {
       {/* Header */}
       <header className="w-full h-20 bg-[#e7dcd3]/70 backdrop-blur-md shadow-sm flex items-center justify-between px-6 relative z-40">
         {/* Logo */}
-        <div className="flex items-center text-2xl font-bold tracking-wide text-gray-800 uppercase">
-          <img
+        <div>
+         
+         <Link href="/"  className="flex items-center text-2xl font-bold tracking-wide text-gray-800 uppercase">
+          <Image
             src="/assets/logo1.webp"
             alt="Logo"
+            width={40}        // ✅ Required
+            height={40}
             className="h-10 w-auto object-contain -ml-5 sm:-ml-0"
           />
           <span className="-ml-1">EASURE</span>
+          </Link>
         </div>
 
         {/* Social Icons */}
@@ -65,7 +71,7 @@ export default function Header() {
 
       {/* Fixed Menu Button (always visible on screen) */}
       <div
-        className="fixed top-3 right-5 z-50 w-14 h-14 bg-gradient-to-br from-neutral-300 to-rose-200 rounded-full flex items-center justify-center shadow-lg"
+        className="fixed top-3 right-5 z-50 w-14 h-14 bg-[#c4a998] rounded-full flex items-center justify-center shadow-lg"
         onClick={() => setMenuOpen(true)}
       >
         <FaBars className="text-gray-800 text-xl cursor-pointer" />
