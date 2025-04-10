@@ -1,0 +1,155 @@
+[
+    {
+      "id": 1,
+      "title": "MEASURE Desktop Pen Holder (Special Grommets)",
+      "description": "The Desktop Pen Holder is a versatile grommet designed for organizing pens, pencils, and cables on workstations. It integrates seamlessly with desks, helping maintain a clutter-free and efficient workspace.",
+      "category": "Accessories",
+      "image": "/assets/p1.webp",
+      "link": "/products/pen-holder"
+    },
+    {
+      "id": 2,
+      "title": "MEASURE Frameless Series (Clamshell Box)",
+      "description": "Frameless Series Clamshell Box for Work: A solution for cable management with a flip-open cover. Designed for clean and efficient workspace organization, allowing easy cable access while maintaining a sleek appearance.",
+      "category": "Accessories",
+      "image": "/assets/p2.webp",
+      "link": "/products/clamshell-box"
+    },
+    {
+      "id": 3,
+      "title": "MEASURE Snake Conduit (Wire Tube)",
+      "description": "The Snake Conduit is an efficient cable management solution designed to keep your workspace neat. Made from high-quality ABS plastic, it is robust and flexible, ensuring ease of use and a clutter-free environment.",
+      "category": "Accessories",
+      "image": "/assets/p3.webp",
+      "link": "/products/snake-conduit"
+    },
+    {
+      "id": 4,
+      "title": "MEASURE Modesty Brackets (With Accessories)",
+      "description": "Enhance the functionality and aesthetics of your office setup with our premium modesty brackets, designed for secure installation and a polished finish. Upgrade your office with modesty brackets that combine strength, style, and seamless installation, ensuring a professional and clutter-free workspace!",
+      "category": "Accessories",
+      "image": "/assets/p4.webp",
+      "link": ""
+    },
+    {
+      "id": 5,
+      "title": "MEASURE Screens (Acoustic & Acrylic Panels) ",
+      "description": "These panels are designed to provide enhanced privacy and noise reduction in workspaces, ensuring a more productive and comfortable environment. They are lightweight, durable, and available in various materials and sizes to suit different office setups.",
+      "category": "Accessories",
+      "image": "/assets/p5.webp",
+      "link": ""
+    },
+    {
+      "id": 6,
+      "title": "MEASURE Cable Tray (Bottom Box)",
+      "description": "The Cable Tray is designed for efficient cable organization under desks. Its steel construction ensures durability, while its nail-free assembly allows for quick and secure installation",
+      "category": "Accessories",
+      "image": "/assets/p6.webp",
+      "link": ""
+    },
+    {
+      "id": 7,
+      "title": "MEASURE Conference Line Series (Cable Box)",
+      "description": "The Line Series Cable Box for Office is designed to provide an efficient and elegant cable management solution for modern office spaces, ensuring a neat and organized environment.",
+      "category": "Accessories",
+      "image": "/assets/p7.webp",
+      "link": ""
+    },
+    {
+      "id": 8,
+      "title": "MEASURE Workstation Line Series (Cable Box) ",
+      "description": "Line Series Cable Box for Work: A solution for cable management at work. Designed to eliminate tangled cables and improve workspace organization.",
+      "category": "Accessories",
+      "image": "/assets/p8.webp",
+      "link": ""
+    },
+    {
+      "id": 9,
+      "title": "MEASURE CPU Holder (and Keyboard Tray)",
+      "description": "Optimize your workspace with the MEASURE CPU Holder & Keyboard Tray, designed for better organization, ergonomic comfort, and space efficiency.",
+      "category": "Accessories",
+      "image": "/assets/p9.webp",
+      "link": ""
+    },
+    {
+      "id": 10,
+      "title": "MEASURE Partition Clamps",
+      "description": "Enhance your workspace organization and privacy with Partition Clamps, a reliable and aesthetically pleasing solution for mounting partition panels to desks and workstations.",
+      "category": "Accessories",
+      "image": "/assets/p10.webp",
+      "link": ""
+    },
+    {
+      "id": 11,
+      "title": "MEASURE Monitor Arm - Table Mount SeriesDual",
+      "description": "MOZOELECTRIC Monitor Arm - Table Mount Series DUAL loading capacity: 2-9kg Screen Size: 17-27'' Tilt Range: - 85°-15° Clamp&Grommet Rotate, swivel, extend or tilt your screens with just a touch of your fingertip so that your screens are always exactly where you want them.",
+      "category": "Adjustable Desk",
+      "image": "/assets/p11.webp",
+      "link": ""
+    },
+    {
+      "id": 12,
+      "title": "MEASURE X GAMING DESK",
+      "description": "Our gaming desks allow you to fill your perspective and create a fully immersive experience. With the cool appearance, it's the perfect desk for anyone who loves to spend an hour's gaming.",
+      "category": "Adjustable Desk",
+      "image": "/assets/p12.webp",
+      "link": ""
+    },
+    {
+      "id": 13,
+      "title": "MEASURE Solo Electric desk (Adjustable desk with Single-Motor)",
+      "description": "MOZOELECTRIC Adjustable desk. (Single-Motor) Combining advanced functions with a reasonable price, the series is not only budget-friendly but proven for its quality standard and its effectiveness.",
+      "category": "Adjustable Desk",
+      "image": "/assets/p13.webp",
+      "link": ""
+    },
+    {
+      "id": 14,
+      "title": "MEASURE (Monitor Arm - Table Mount Series Single)",
+      "description": "MEASURE TOZO-S (Monitor Arm - Table Mount Series Single) MEASURE MOZOELECTRIC Monitor Arm, Table Mount Series Single",
+      "category": "Adjustable Desk",
+      "image": "/assets/p14.webp",
+      "link": ""
+    },
+    {
+      "id": 15,
+      "title": "MEASURE DUO Electric Desk (Electric Height-Adjustable Desk)",
+      "description": "MOZOELECTRIC Adjustable DUO Electric Desk.",
+      "category": "Adjustable Desk",
+      "image": "/assets/p15.webp",
+      "link": ""
+    },
+    {
+      "id": 16,
+      "title": "MEASURE L SHAPE ADJUSTABLE FIXED GAMING DESK",
+      "description": "MOZOELECTRIC Adjustable Fixed Gaming Desk With RGB Lighting",
+      "category": "Adjustable Desk",
+      "image": "/assets/p16.webp",
+      "link": ""
+    },
+    {
+      "id": 17,
+      "title": "KEYLESS CABINET/ DRAWER LOCK",
+      "description": "KEYLESS CABINET/ DRAWER LOCK is a hassle-free, keyless locking solution designed for modern wardrobes and cabinets.",
+      "category": "Keyless lock",
+      "image": "/assets/p17.webp",
+      "link": ""
+    },
+    {
+      "id": 18,
+      "title": "STURDY LOCK FOR CABINET",
+      "description": "The STURDY LOCK FOR CABINET is a premium cabinet lock crafted from durable zinc alloy, ensuring long-lasting performance and security.",
+      "category": "STURDY LOCK FOR CABINET",
+      "image": "/assets/p18.webp",
+      "link": ""
+    },
+    {
+      "id": 19,
+      "title": "Desk Grommet USB Charger with Power Ports",
+      "description": "The Desk Grommet USB Charger is a versatile and space-saving power solution for modern workstations.",
+      "category": "USB Charger with Power Ports",
+      "image": "/assets/p20.webp",
+      "link": ""
+    }
+  ]
+  

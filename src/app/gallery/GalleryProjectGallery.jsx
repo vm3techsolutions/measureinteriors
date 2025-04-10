@@ -6,12 +6,12 @@ import { useState } from 'react';
 import { IoMdClose, IoMdArrowBack, IoMdArrowForward } from 'react-icons/io';
 
 const images = [
-  { src: '/assets/HomeG1.webp', alt: 'Image 1' },
-  { src: '/assets/HomeG2.webp', alt: 'Image 2' },
-  { src: '/assets/HomeG3.webp', alt: 'Image 3' },
-  { src: '/assets/HomeG4.webp', alt: 'Image 4' },
-  { src: '/assets/HomeG5.webp', alt: 'Image 5' },
-  { src: '/assets/HomeG6.webp', alt: 'Image 6' },
+  { src: '/assets/GP1.webp', alt: 'Image 1' },
+  { src: '/assets/GP2.webp', alt: 'Image 2' },
+  { src: '/assets/GP3.webp', alt: 'Image 3' },
+  { src: '/assets/GP4.webp', alt: 'Image 4' },
+  { src: '/assets/GP5.webp', alt: 'Image 5' },
+  { src: '/assets/GP6.webp', alt: 'Image 6' },
 ];
 
 const ImageGrid = () => {
@@ -34,14 +34,15 @@ const ImageGrid = () => {
   };
 
   return (
-    <section className="py-10 bg-[#f8f0e9]">
-       <div className="w-full flex flex-col items-center text-center">
-        <h2 className="text-3xl md:text-4xl text-black mb-4">GALLERY</h2>
+    <section className="py-10 ">
+         <div className="w-full flex flex-col items-center text-center">
+        <h2 className="text-3xl md:text-4xl text-black mb-4">OUR PROJECTS GALLERY</h2>
         <hr className="w-16 h-1 bg-[#D5BDAF] border-0 rounded-full mb-10" />
       </div>
-      <div className="max-w-7xl mx-auto">
+
+      <div className="max-w-7xl mx-auto ">
         {[0, 3].map((startIndex, rowIndex) => (
-          <div key={startIndex} className="grid grid-cols-1 sm:grid-cols-12">
+          <div key={startIndex} className="grid grid-cols-1 sm:grid-cols-12 gap-3  space-y-3">
             {images.slice(startIndex, startIndex + 3).map((img, i) => {
               const index = startIndex + i;
               const isBig =
@@ -49,11 +50,11 @@ const ImageGrid = () => {
               return (
                 <div
                   key={img.src}
-                  className={`relative group h-64 sm:h-96 ${
+                  className={`relative group h-64 sm:h-96  ${
                     isBig ? 'sm:col-span-6' : 'sm:col-span-3'
                   }`}
                 >
-                  <Image src={img.src} alt={img.alt} fill className="object-cover" />
+                  <Image src={img.src} alt={img.alt} fill className="object-cover rounded-lg" />
 
                   {/* Overlay */}
                   <div className="absolute inset-0 hover:bg-[#475a79]/70 bg-opacity-50 group-hover:bg-opacity-90 transition duration-300 flex items-center justify-center">
@@ -104,13 +105,7 @@ const ImageGrid = () => {
         
       )}
       
-<div className="flex justify-center mt-8">
-  <Link href="/your-target-page">
-    <button className="bg-[#D5BDAF] text-white px-8 py-2 rounded-md hover:bg-[#3b4d67] transition">
-      View All
-    </button>
-  </Link>
-</div>
+
     </section>
   );
 };
