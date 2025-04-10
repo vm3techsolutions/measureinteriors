@@ -8,13 +8,13 @@ import GalleryProjectGallery from "./GalleryProjectGallery";
 export default function ContactPage() {
     return (
       <div>
-       {/* <GalleryBanner/> 
+       <GalleryBanner/> 
        <GalleryDiscover/> 
        <GalleryProjectGallery/>
        <GalleryExperience/>
        <GalleryDiscoverCarousal/>
 
-       <GalleryContactUs/>   */}
+       <GalleryContactUs/>  
       </div>
     );
   }

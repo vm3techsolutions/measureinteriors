@@ -33,7 +33,7 @@ import {
     <li><a href="/gallery" className="">GALLERY</a></li>
     <li><a href="/blog" className="">BLOG</a></li>
         <li><a href="/contact" className="">CONTACT</a></li>
-        <li><a href="/faq" className="">Privacy Policy</a></li>
+        <li><a href="/privacy" className="">Privacy Policy</a></li>
             </ul>
           </div>
   
