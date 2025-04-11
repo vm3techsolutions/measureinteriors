@@ -25,7 +25,7 @@ const AboutUs = () => {
           <hr className="w-16 h-1 bg-[#D5BDAF] border-0 rounded-full mb-6 " />
 
 
-          <div className="scene w-[150px] h-[150px] my-16 ">
+          <div className="scene1 w-[150px] h-[150px] my-16 ">
   <div className="cube-small">
     {['1', '2', '3', '4', '5', '6'].map((side) => (
       <div className={`cube-face-small face-${side}`} key={side}>

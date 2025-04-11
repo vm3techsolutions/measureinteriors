@@ -1,5 +1,6 @@
 'use client';
 import { useState, useEffect } from 'react';
+import Link from 'next/link';
 
 const BackgroundSlider = () => {
   const images = [
@@ -35,9 +36,14 @@ const BackgroundSlider = () => {
           <p className="text-base md:text-xl text-gray-700 mb-6">
             From concept to completion, we manage every aspect of your office transformation.
           </p>
-          <button className="px-6 py-3 bg-[#D6CCC2] hover:bg-[#e7dcd3]/70 text-black rounded-xl text-lg font- shadow hover:scale-105 transition">
-            EXPLORE OUR SERVICES
-          </button>
+         
+
+<Link href="/services">
+  <button className="px-6 py-3 bg-[#D6CCC2] hover:bg-[#e7dcd3]/70 text-black rounded-xl text-lg font- shadow hover:scale-105 transition">
+    EXPLORE OUR SERVICES
+  </button>
+</Link>
+
         </div>
       </div>
 

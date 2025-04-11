@@ -38,15 +38,33 @@ import {
           </div>
   
           {/* Contact Us */}
-          <div>
-            <h2 className="text-2xl font-semibold  text-[#f4e8e8] mb-2">Contact Us</h2>
-            <ul className="space-y-5 ">
-              <li className="flex items-center gap-2 "><MdLocationOn   className="text-[#f4e8e8]"/> Dubai, UAE</li>
-              <li className="flex items-center gap-2 "><BsWhatsapp   className="text-[#f4e8e8]"/> Mobile No +971 50 265 9845</li>
-              <li className="flex items-center gap-2 "><MdPhone   className="text-[#f4e8e8]"/> Landline No +971 4 329 4720</li>
-              <li className="flex items-center gap-2 "><MdEmail   className="text-[#f4e8e8]"/> info@measureinteriors.com</li>
-            </ul>
-          </div>
+<div>
+  <h2 className="text-2xl font-semibold text-[#f4e8e8] mb-2">Contact Us</h2>
+  <ul className="space-y-5">
+    <li className="flex items-center gap-2 ">
+      <MdLocationOn className="text-[#f4e8e8] text-xl"/> Dubai, UAE
+    </li>
+    <li className="flex items-center gap-2 ">
+      <BsWhatsapp  className="text-[#f4e8e8] text-xl"/>
+      <a href="tel:+971502659845" className="">
+        Mobile No +971 50 265 9845
+      </a>
+    </li>
+    <li className="flex items-center gap-2 text-[#f4e8e8]">
+      <MdPhone  className="text-[#f4e8e8] text-xl"/>
+      <a href="tel:+97143294720" className="text-black">
+        Landline No +971 4 329 4720
+      </a>
+    </li>
+    <li className="flex items-center gap-2 text-[#f4e8e8]">
+      <MdEmail />
+      <a href="mailto:info@measureinteriors.com" className="text-black">
+        info@measureinteriors.com
+      </a>
+    </li>
+  </ul>
+</div>
+
   
           {/* Follow Us */}
           <div>

@@ -105,8 +105,8 @@ const ImageGrid = () => {
       )}
       
 <div className="flex justify-center mt-8">
-  <Link href="/your-target-page">
-    <button className="bg-[#D5BDAF] text-white px-8 py-2 rounded-md hover:bg-[#3b4d67] transition">
+  <Link href="/gallery">
+    <button className="bg-[#D5BDAF] text-white px-8 py-2 rounded-md hover:bg-[#666] transition">
       View All
     </button>
   </Link>
