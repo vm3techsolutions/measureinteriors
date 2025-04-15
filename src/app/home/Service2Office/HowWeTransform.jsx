@@ -3,7 +3,7 @@ import { use, useState } from "react";
 import Image from "next/image";
 
 const sides = [
-  { label: "Measure", image: "/assets/HW1.webp" },
+  { label: "Company", image: "/assets/HW1.webp" },
   { label: "Consultation", image: "/assets/HW2.webp" },
   { label: "Design", image: "/assets/HW3.webp" },
   { label: "Approval", image: "/assets/HW4.webp" },

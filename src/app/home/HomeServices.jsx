@@ -7,19 +7,19 @@ const Services = () => {
       title: 'INTERIOR DESIGN AND CONSULTANCY',
       desc: 'Bespoke interiors reflecting your brand identity and enhancing functionality.',
       img: '/assets/HomeService1.webp',
-      link: '/services/interior-design',
+      link: '/home/Service1Interior',
     },
     {
       title: 'OFFICE FIT-OUTS',
       desc: 'Transforming spaces into fully operational offices.',
       img: '/assets/HomeService2.webp',
-      link: '/services/office-fitouts',
+      link: '/home/Service2Office/',
     },
     {
       title: 'FURNITURE SUPPLY AND INSTALLATION',
       desc: 'High-quality, ergonomic, and stylish furniture solutions.',
       img: '/assets/HomeService3.webp',
-      link: '/services/furniture-supply',
+      link: '/',
     },
   ];
 

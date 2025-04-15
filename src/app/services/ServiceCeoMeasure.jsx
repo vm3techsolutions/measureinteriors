@@ -18,12 +18,12 @@ export default function QuoteSection() {
           import Link from "next/link";
 
 <div className="flex gap-4 -mt-4">
-  <Link href="/office-interiors">
+  <Link href="/home/Service1Interior">
     <button className="bg-[#D5BDAF] px-6 py-3 rounded-md text-black font-medium hover:bg-[#c4ab9e] transition">
       Office Interiors
     </button>
   </Link>
-  <Link href="/office-furniture">
+  <Link href="/home/Service1Interior">
     <button className="bg-[#D5BDAF] px-6 py-3 rounded-md text-black font-medium hover:bg-[#c4ab9e] transition">
       Office Furniture
     </button>
