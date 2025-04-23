@@ -33,7 +33,7 @@ const ProductSection = () => {
             className={`px-3 py-2 rounded-md text-lg transition  ${
               selectedCategory === category
                 ? "bg-[#0073aa] text-white"
-                : "bg-[#dddddd] text-gray-800 hover:bg-gray-300"
+                : "bg-[#dddddd] text-gray-800  hover:bg-gray-300"
             }`}
             onClick={() => setSelectedCategory(category)}
           >
